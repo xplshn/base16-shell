@@ -4,7 +4,7 @@
 # Green Screen scheme by Chris Kempson (http://chriskempson.com)
 export BASE16_THEME=greenscreen
 
-color00="51/11/00" # Base 00 - Black
+color00="00/11/00" # Base 00 - Black
 color01="51/77/00" # Base 08 - Red
 color02="51/BB/00" # Base 0B - Green
 color03="51/77/00" # Base 0A - Yellow
