@@ -1,33 +1,33 @@
 #!/bin/sh
 # base16-shell (https://github.com/chriskempson/base16-shell)
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
-# Amber Tube scheme by Xplshn
-export BASE16_THEME=tube-amber
+# Green Screen scheme by Chris Kempson (http://chriskempson.com)
+export BASE16_THEME=greenscreen
 
-color00="3C/28/0A" # Base 00 - Black
-color01="FF/AC/00" # Base 08 - Red
-color02="FF/95/00" # Base 0B - Green
-color03="FF/CC/00" # Base 0A - Yellow
-color04="FF/8C/01" # Base 0D - Blue
-color05="FF/7C/00" # Base 0E - Magenta
-color06="FF/5E/00" # Base 0C - Cyan
-color07="FF/B0/00" # Base 05 - White
-color08="FF/D7/00" # Base 03 - Bright Black
+color00="51/11/00" # Base 00 - Black
+color01="51/77/00" # Base 08 - Red
+color02="51/BB/00" # Base 0B - Green
+color03="51/77/00" # Base 0A - Yellow
+color04="51/C3/00" # Base 0D - Blue
+color05="41/99/00" # Base 0E - Magenta
+color06="51/55/00" # Base 0C - Cyan
+color07="51/BB/00" # Base 05 - White
+color08="51/77/00" # Base 03 - Bright Black
 color09=$color01 # Base 08 - Bright Red
 color10=$color02 # Base 0B - Bright Green
 color11=$color03 # Base 0A - Bright Yellow
 color12=$color04 # Base 0D - Bright Blue
 color13=$color05 # Base 0E - Bright Magenta
 color14=$color06 # Base 0C - Bright Cyan
-color15="FF/A0/00" # Base 07 - Bright White
-color16="E6/87/00" # Base 09
-color17="FF/74/00" # Base 0F
-color18="3C/28/0A" # Base 01
-color19="FF/C1/00" # Base 02
-color20="E6/8C/1E" # Base 04
-color21="FF/95/00" # Base 06
-color_foreground="F5/CC/00" # Base 05
-color_background="3C/28/0A" # Base 00
+color15="51/FF/00" # Base 07 - Bright White
+color16="51/99/00" # Base 09
+color17="51/55/00" # Base 0F
+color18="51/33/00" # Base 01
+color19="51/55/00" # Base 02
+color20="51/99/00" # Base 04
+color21="51/DD/00" # Base 06
+color_foreground="00/bb/00" # Base 05
+color_background="00/11/00" # Base 00
 
 if [ -n "$TMUX" ]; then
   # Tell tmux to pass the escape sequences through
